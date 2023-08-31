@@ -42,3 +42,125 @@ li{
     border-radius: 4px;
     align-items: center;
 }
+
+#profile_pic{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+#more{
+    position: absolute;
+    bottom: 0;
+}
+
+.post{
+    flex: 0.8;
+    padding: 50px;
+    padding-top: 10px;
+}
+
+.post{
+    width: 450px;
+}
+
+.post_profile{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.post_head{
+    display: flex;
+    justify-content: space-between;
+}
+
+.left{
+    display: flex;
+    row-gap: 10px;
+}
+
+.icon_button{
+    background-color: transparent;
+    border: none;
+    border-radius: 50%;
+    height: 45px;
+    width: 45px;
+}
+
+.icon_button:hover{
+    background-color: rgba(255, 255, 255, 0.08);
+}
+
+.post_img{
+    padding: 20px;
+    padding-top: 0px;
+}
+
+.post_img img{
+    height: 750px;
+    width: 100%;
+}
+
+.post_reaction{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+.post_reaction button{
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 30px;
+    border-radius: 50%;
+}
+
+.post_reaction button:hover{
+    background-color: rgba(255, 255, 255, 0.08);
+}
+
+.post_commets{
+    padding: 25px;
+    padding-top: 0px;
+}
+
+#likes{
+    font-weight: bold;
+}
+
+.text_secondary{
+    color: lightgray;
+}
+
+#profile_pic{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
+
+.user_div{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+#sg_btn{
+    background: none;
+    color: dodgerblue;
+    font-size: 15px;
+    border: none;
+
+}
+
+.sg{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.suggestion{
+    position: sticky;
+    top: 10px;
+}
